@@ -2,6 +2,101 @@
 <head>
 <style>
 /* Write your code here */
+body{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-image: url("subtle-mosaic-pattern.png");
+}
+
+.container{
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+header nav{
+  background-color: lightgrey;
+  height: 30px;
+}
+
+nav a{
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  text-decoration: none;
+  color: black;
+  width: 25%;
+  height: 30px;
+  background-color: lightgrey;
+}
+
+.active{
+  color: white;
+  background-color: red;
+}
+
+.logo_part{display: flex;}
+
+
+.search{
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search input{margin: 10px;}
+
+.card{
+  border: 1px solid red;
+  
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.card .title{
+  background-color: blue;
+  color: white;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+
+.card .price{
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  
+}
+.card img{ display: block; }
+
+.cards{
+  margin-left: 28px;
+}
+
+section{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
 </style>
 </head>
 <body>
